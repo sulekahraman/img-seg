@@ -21,10 +21,10 @@ from tensorflow.python import debug as tf_debug
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--data_dir', type=str, default='dataset/VOCdevkit/VOC2012/JPEGImages',
+parser.add_argument('--data_dir', type=str, default='data/VOCdevkit/VOC2012/JPEGImages',
                     help='The directory containing the image data.')
 
-parser.add_argument('--output_dir', type=str, default='./dataset/inference_output',
+parser.add_argument('--output_dir', type=str, default='./data/inference_output',
                     help='Path to the directory to generate the inference results')
 
 parser.add_argument('--infer_data_list', type=str, default='./dataset/sample_images_list.txt',
