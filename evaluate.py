@@ -19,10 +19,10 @@ import timeit
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--image_data_dir', type=str, default='dataset/VOCdevkit/VOC2012/JPEGImages',
+parser.add_argument('--image_data_dir', type=str, default='data/VOCdevkit/VOC2012/JPEGImages',
                     help='The directory containing the image data.')
 
-parser.add_argument('--label_data_dir', type=str, default='dataset/VOCdevkit/VOC2012/SegmentationClassAug',
+parser.add_argument('--label_data_dir', type=str, default='data/VOCdevkit/VOC2012/SegmentationClassAug',
                     help='The directory containing the ground truth label data.')
 
 parser.add_argument('--evaluation_data_list', type=str, default='./dataset/val.txt',
