@@ -21,7 +21,7 @@ from tensorflow.python import debug as tf_debug
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--data_dir', type=str, default='data/VOCdevkit/VOC2012/JPEGImages',
+parser.add_argument('--data_dir', type=str, default='data/VOCdevkit/VOC2012/JPEGImages/',
                     help='The directory containing the image data.')
 
 parser.add_argument('--output_dir', type=str, default='./data/inference_output',
