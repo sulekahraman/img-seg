@@ -91,7 +91,7 @@ def main(unused_argv):
     mask = Image.fromarray(mask)
     plt.axis('off')
     plt.imshow(mask)
-    plt.show()
+    plt.show(block=True)
     plt.savefig(path_to_output, bbox_inches='tight')
 
 
